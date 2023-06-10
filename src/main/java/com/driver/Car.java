@@ -24,7 +24,7 @@ public class Car extends Vehicle {
 
     public int getWheels()
     {
-         return wheels;
+         return this.wheels;
     }
 
     public void setWheels(int wheels) {
@@ -32,7 +32,7 @@ public class Car extends Vehicle {
     }
 
     public String getType() {
-        return type;
+        return this.type;
     }
 
     public void setType(String type) {
@@ -40,7 +40,7 @@ public class Car extends Vehicle {
     }
 
     public int getDoors() {
-        return doors;
+        return this.doors;
     }
 
     public void setDoors(int doors) {
@@ -56,7 +56,7 @@ public class Car extends Vehicle {
     }
 
     public boolean isManual() {
-        return isManual;
+        return this.isManual;
     }
 
     public void setManual(boolean manual) {
