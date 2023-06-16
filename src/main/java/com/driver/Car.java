@@ -56,7 +56,7 @@ public class Car extends Vehicle {
     }
 
     public void setManual(boolean manual) {
-        isManual = manual;
+        this.isManual = manual;
     }
 
     public void setCurrentGear(int currentGear) {
