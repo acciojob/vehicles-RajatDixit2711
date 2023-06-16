@@ -45,7 +45,7 @@ public class F1 extends Car {
             super.changeGear(5);
         }
         else {
-            super.setGears(6);
+            super.changeGear(6);
         }
 
 
