@@ -8,10 +8,12 @@ public class Boat implements WaterVehicle {
         this.name = name;
         this.capacity = capacity;
     }
+
     public Boat() {
         super();
-
     }
+
+
 
         @Override
         public String getVehicleName() {
